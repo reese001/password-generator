@@ -31,6 +31,12 @@ function generatePasswords(length, specialChars) {
     
     let passwords = [];
 
+    let password = "";
+    for (let n=0; n<length; n++) {
+        let glyph = glyphs[randomMe(0, glyphs.length - 1)];
+        password = password + glyph;
+    }
+
 }
 
 function main() {
