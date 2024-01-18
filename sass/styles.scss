@@ -1,0 +1,20 @@
+$bg-color: #000000;
+$font-color: #FFFFFF;
+
+// ------------------------------- global styling
+.g-base {
+    background-color: $bg-color;
+    color: $font-color;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+// ------------------------------------------------------------ page/section styling
+#p-main {
+    padding:20px;
+
+    & #s-passwords-gen .caption {
+        padding-top: 5px;
+        font-size: 1rem;
+    }
+}
